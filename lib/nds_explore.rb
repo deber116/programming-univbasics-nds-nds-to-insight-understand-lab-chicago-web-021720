@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   spielberg = directors_database[0][:movies]
   array_index = 0
   while array_index < spielberg.count do
-    puts "\n#{spielberg[array_index][:title]}"
+    puts "#{spielberg[array_index][:title]}\n"
     array_index += 1
   end
   
