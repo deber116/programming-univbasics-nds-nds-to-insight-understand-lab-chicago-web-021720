@@ -7,6 +7,6 @@ require 'pp'
 def pretty_print_nds(nds)
   pp nds
 end
-pretty_print_nds()
+pretty_print_nds(directors_database)
 def print_first_directors_movie_titles
 end
